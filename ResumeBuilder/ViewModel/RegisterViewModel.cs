@@ -9,7 +9,6 @@ namespace ResumeBuilder.ViewModel
 {
     public class RegisterViewModel
     {
-
         [Required]
         [EmailAddress]
         [Remote(action: "isEmailValid", controller: "Account")]
