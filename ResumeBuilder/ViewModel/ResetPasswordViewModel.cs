@@ -22,6 +22,7 @@ namespace ResumeBuilder.ViewModel
             ErrorMessage = "Password and Confirm Password must match")]
         public string ConfirmPassword { get; set; }
 
+
         public string Token { get; set; }
     }
 }
